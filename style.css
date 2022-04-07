@@ -1,0 +1,165 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+  }
+h3,p{
+    text-align: center;
+}
+  .box {
+    align-content: center;
+    background-color: #ffffff;
+    margin-left: 1%;
+    height: 10%;
+    width: 10%;
+    box-shadow: #666666 0px 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+.card{
+    background-color: #eeeeee;
+    margin-top: 7%;
+    margin-left: 17%;
+    height: 10%;
+    width: 15%;
+}
+.container {
+    padding: 2px 16px;
+  }
+.gfg {
+    margin: 3%;
+    position: static;
+    top: auto;
+    }
+.logg {
+    margin-top: -18%;
+    margin-left: 38%;
+    color: azure;
+}
+button.down {
+    margin-top: -20%;
+    margin-left: 40%;
+    height: 40px;
+    border: 0;
+    padding: 0.2%;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(180, 0, 0);
+    }
+button.adown {
+    color: white;
+    margin-top: -20%;
+    margin-left:1%;
+    height: 40px;
+    border: 0;
+    padding: 0.2%;
+    cursor: pointer;
+    background:transparent;
+    border: solid #ffffff;
+        }
+
+.main {
+    background: #eeeeee;
+    min-height: 110vh;
+    width: 768px;
+    margin: 120px auto;
+    padding: 30px;
+    line-height: 1.68em;}
+
+.image{
+    position: static;
+    width: 100%;
+    height: 80%;
+    border-radius: 0 0 30% 30%;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    color: rgb(202, 202, 202);
+    top :30%;
+    left: 40%;
+}
+h2{
+
+    position: absolute;
+    text-align: center;
+    color:#ffffff; 
+    top :40%;
+    left: 30%;
+
+}
+
+/*header styling*/
+#site-header {
+    width: 100%;
+    background: #ffffff;
+    padding: 15px 30px;
+    transition: all 0.2s ease;
+    height: 70px;
+    box-shadow: 0 2px 10px #dddddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    color: #666666;
+}
+a:hover {
+    color: #0097ad !important;
+    transition: all 0.2s ease;
+}
+
+button.create {
+    outline: 0;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: 40px;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(180, 0, 0);
+}
+button.login{
+    right: -35%;
+    top: 20%;
+    border: none;
+    list-style-type: none;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+}
+button:hover{
+    color: #23977e;
+}
+header#site-header div#site-header-container {
+    display: flex;
+    align-items: flex;
+    height: 40px;
+}
+
+
+
+header#site-header div#site-header-logo img {
+    height: 70px;
+}
+
+header#site-header ul#main-menu li {
+    
+    display: inline;
+    margin-right: 10px;
+}
+
+
+header#site-header ul#main-menu li a {
+    text-decoration: none;
+}
+
+
+header#site-header img.icon-header {
+  position: relative; 
+  top: 3px;
+}
